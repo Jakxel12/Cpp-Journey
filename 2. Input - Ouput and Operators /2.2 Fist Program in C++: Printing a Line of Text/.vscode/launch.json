@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": true,
+      "externalConsole": false,
+      "cwd": "/Users/jakxel/Repositorys/Cpp-Journey/2. Input - Ouput and Operators /1.2 Fist Program in C++: Printing a Line of Text/Text-printing",
+      "program": "/Users/jakxel/Repositorys/Cpp-Journey/2. Input - Ouput and Operators /1.2 Fist Program in C++: Printing a Line of Text/Text-printing/build/Debug/outDebug",
+      "MIMode": "gdb"
+    }
+  ]
+}
