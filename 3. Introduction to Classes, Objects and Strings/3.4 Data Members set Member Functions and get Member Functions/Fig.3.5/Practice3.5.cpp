@@ -8,34 +8,35 @@ using namespace std;
 // GradeBoook class definition
 class GradeBook
 {
-  public:
+public:
   // Function that sets the course name
-  void setCourseName ( string name )
+  void setCourseName(string name)
   {
     courseName = name; // store the course name in the object
   } // end function setCourseName
-  
+
   // function that gets the course name
-  string getCourseName() const 
+  string getCourseName() const
   {
     return courseName; // return the Objects courseName
   } // end function getCoourseName
 
-  // function that displays a welcome message 
-  void displayMessage() const 
+  // function that displays a welcome message
+  void displayMessage() const
   {
     // this statements calls getCourseName to get the
     // nae of teh course this GradeBOok represents
-    cout << "Welcome to the grade book for\n" << getCourseName() << "!" << endl;
+    cout << "Welcome to the grade book for\n"
+         << getCourseName() << "!" << endl;
   } // edn function displayMessage
-  private:
+private:
   string courseName; // course name for this gradeBook
 }; // end class GraeBook
 
 // function main begins program execution
-int main() 
+int main()
 {
-  string nameOfCourse; // string of the characters to store the course name
+  string nameOfCourse;   // string of the characters to store the course name
   GradeBook myGradeBook; // create a GradeBook object named myGradeBook
 
   // display initial value of coursename
@@ -43,9 +44,9 @@ int main()
 
   // prompt for, input and set course name
   cout << "\nPlease enter the course name: " << endl;
-  getline( cin, nameOfCourse ); // read a course name whit blanks
-  myGradeBook.setCourseName( nameOfCourse) ; // set the course name
+  getline(cin, nameOfCourse);              // read a course name whit blanks
+  myGradeBook.setCourseName(nameOfCourse); // set the course name
 
-  cout << endl; // outputs a blanck line
+  cout << endl;                 // outputs a blanck line
   myGradeBook.displayMessage(); /// display message whit new course name
-} // end main 
+} // end main
