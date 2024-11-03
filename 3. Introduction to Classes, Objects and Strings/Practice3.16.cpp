@@ -10,4 +10,3 @@ GradeBook::GradeBook( string name )
   setCoursename ( name ); // validate and store coursename
 } // end gradeBook constructor
 
-//New lines
